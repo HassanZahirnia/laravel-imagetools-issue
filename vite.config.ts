@@ -11,6 +11,7 @@ import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import icons from 'unplugin-icons/vite'
 import vue from '@vitejs/plugin-vue'
 import run from 'vite-plugin-run'
+import { imagetools } from 'vite-imagetools'
 
 export default defineConfig({
 	plugins: [
@@ -25,6 +26,7 @@ export default defineConfig({
 			},
 		]),
 		hybridly(),
+		imagetools(),
 		vue(),
 		icons({
 			autoInstall: true,
