@@ -11,3 +11,6 @@ Instructions to run the project
 7. Visit the url given by the `serve` command (step 5)
 8. You can see the image fails to load since it's going through `vite-imagetools` plugin via the `?webp`
 9. The file you want to edit/play with is `resources/views/pages/welcome.vue`
+
+
+Obviously you also need to have `node`, `npm`, `composer` and `php` installed on your machine.
